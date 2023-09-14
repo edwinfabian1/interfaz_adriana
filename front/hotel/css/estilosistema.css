@@ -74,7 +74,7 @@ CONGIGURACION PAGINA INICIO
 */
  
  #intro {
-     background-image: url(/hotel/img1/hotel.webp);
+     background-image: url(../img1/hotel.webp);
      background-size: cover;
      display: flex;
      justify-content: center;
@@ -163,7 +163,7 @@ CONGIGURACION PAGINA SERVICIOS
 */
  
  #servicios {
-    background: linear-gradient(transparent, black), url(/hotel/img1/servicios.jpeg);
+    background: linear-gradient(transparent, black), url(../img1/servicios.jpeg);
     background-size: cover;
 }
  
@@ -180,23 +180,23 @@ CONGIGURACION PAGINA SERVICIOS
  }
  
  #servicios .servicio1 {
-     background-image: url(/hotel/img1/pscina.webp);
+     background-image: url(../img1/pscina.webp);
  }
  
  #servicios .servicio2 {
-     background-image: url(/hotel/img1/restaurante.webp);
+     background-image: url(../img1/restaurante.webp);
  }
  
  #servicios  .servicio3 {
-     background-image: url(/hotel/img1/bar.webp);
+     background-image: url(../img1/bar.webp);
  }
  
  #servicios .servicio4 {
-     background-image: url(/hotel/img1/spa.webp);
+     background-image: url(../img1/spa.webp);
  }
  
  #servicios  .servicio5 {
-     background-image: url(/hotel/img1/cliente.webp);
+     background-image: url(../img1/cliente.webp);
  }
   /*configuracion del acordeon*/
   #servicios .item {
@@ -277,19 +277,44 @@ p{
 
 
 #reservas {
-    background-image: url(/hotel/img1/reservacliente.webp);
+    background-image: url(../img1/reservacliente.webp);
     background-size: cover;
     
 
 
 }
 
-#contactenos h2 {
-   margin-right: 70%;
+#contactenos{
+    background-image: url(../img1/reservacliente.webp);
+    background-size: cover;
+
 
 }
 
+#contactenos h2 {
+   margin-right: 70%;
+   
+
+}
+
+
+
 .formulario {
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: #e4dada75;
+    border-radius: 10px ;
+    top: 50%;
+    margin-right: 50px;
+
+
     
+}
+.formulario {
+
+}
+
+.formulario .btn_enviar{
+
 }
 
