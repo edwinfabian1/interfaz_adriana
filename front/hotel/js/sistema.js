@@ -8,8 +8,5 @@ function seleccionar (link){
     links[4].className="";
     links[5].className="";
 
-link.className="selected"
-
-
-
+link= className="selected"
 }

@@ -37,11 +37,12 @@ MENU DE NAVEGACION
      bottom: 0;
      padding: 10px 0;
      width: 100%;
-     background-image: linear-gradient( to right, #0b3b65, rgb(79, 62, 62), #0b3b65);
+     background-image: linear-gradient( to right, #0b3b65, rgb(79, 62, 62), hsl(182, 80%, 22%));
      text-align: center;
+     z-index: 100;
  }
  
- header nav a {
+ header  a {
      display: inline-block;
      margin: 0 20px;
      text-decoration: none;
@@ -49,6 +50,13 @@ MENU DE NAVEGACION
      padding: 10px;
      border-radius: 10px;
  }
+
+ header a:hover{
+    transform: scaleX(1.1);
+    color:green;
+    
+    transition: all 0.2s ease-in-out;
+}
  
  header span {
      display: inline-block;
@@ -305,7 +313,8 @@ p{
     background-color: #e4dada75;
     border-radius: 10px ;
     top: 50%;
-    margin-right: 50px;
+    
+    
 
 
     
