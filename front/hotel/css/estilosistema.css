@@ -73,7 +73,6 @@ MENU DE NAVEGACION
     height: 40px;
  }
  .selected {
-     color: rgb(57, 189, 17);
      transition: .3s;
  }
  /*---------------
@@ -293,7 +292,6 @@ p{
 }
 
 #contactenos{
-    background-image: url(../img1/reservacliente.webp);
     background-size: cover;
 
 
@@ -301,29 +299,85 @@ p{
 
 #contactenos h2 {
    margin-right: 70%;
+   margin-left: 1%;
+   border-radius: 5px;
    
 
 }
+#contactenos h3 {
+    margin-right: 70%;
+   margin-left: 1%;
+   
+}
 
-
-
-.formulario {
+#contactenos .formulario{
     margin-left: 40%;
     margin-right: 40%;
-    background-color: #e4dada75;
-    border-radius: 10px ;
-    top: 50%;
-    
-    
-
-
-    
-}
-.formulario {
 
 }
 
-.formulario .btn_enviar{
+#contactenos{ 
+    background: url(../img1/contactenos.webp);
+    background-size:cover;
 
 }
+
+#contactenos .contenido{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2%;
+}
+
+#contactenos .datos{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#contactenos .formulario{
+    margin-right: 25%;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3%;
+}
+
+#contactenos input{
+    border:2px solid rgba(0, 0, 0, 0.556) ;
+    border-radius: 5px;
+}
+
+#contactenos .btn_enviar{
+    margin-bottom: 30px;
+}
+
+.formulario  {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.384);
+    padding-right: 4px;
+    border-radius: 5px; 
+    
+}
+.formulario form {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+
+#registro {
+    background-image: url(../img1/registro.webp);
+    background-size: cover;
+}
+
+#registro form{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#registro .enviar{
+    margin-bottom: 30px;
+}
+
 

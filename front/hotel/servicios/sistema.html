@@ -14,19 +14,21 @@
     <!--menu-->
     <header>
 
+
         <nav>
-            <a href="/front/index.html" onclick="seleccionar(this)">Blog</a>
+            <a href="../../INDEX.HTML" onclick="seleccionar(this)" class="selected">Blog</a>
             <a href="#intro" onclick="seleccionar(this)" class="selected">Inicio</a>
-            <a href="#servicios" onclick="seleccionar(this)">Servicios</a>
-            <span><i><img  class="icono_menu" src="/front/img/logo verde.png" height="37px" ></i></span>
-            <a href="#reservas" onclick="seleccionar(this)">Reservas</a>
-            <a href="#contactenos" onclick="seleccionar(this)">Contactenos</a>
-            <a href="#registo" onclick="seleccionar(this)">Registro</a>
-            
-            
+            <a href="#servicios" onclick="seleccionar(this)" class="selected">Servicios</a>
+            <span>
+                <i><img  class="icono_menu" src="../../IMG/logo verde.png" height="38px"  alt=""></i>
+            </span>
+            <a href="#reservas" onclick="seleccionar(this)" class="selected">Reservas</a>
+            <a href="#contactenos" onclick="seleccionar(this)" class="selected">Contactenos</a>
+            <a href="#registro" onclick="seleccionar(this)" class="selected">Registro</a>
         </nav>
     </header>
 
+  
     <script>
         function validar() {
           var usu = document.getElementById("usu").value;
@@ -80,6 +82,9 @@
             </div>
         </div>
     </section>
+    
+
+
     <!--seccion de servicios-->
     <section id="servicios" class="bloque">
         <div><h2>Nuestros servicios</h2></div>
@@ -87,31 +92,32 @@
         <div class="contenido">
             <div class="item servicio1">
                 <div class="overlay"></div>
-                <a href=""><h2>piscinas</h2></a>
+                <a href=""><h2 class="titulo">Pisicinas</h2></a>
             </div>
             <div class="item servicio2">
                 <div class="overlay"></div>
-                <a href=""><h2>Restaurante</h2></a>
+                <a href=""><h2 class="titulo">Restaurante</h2></a>
             </div>
             <div class="item servicio3">
                 <div class="overlay"></div>
-                <a href=""><h2>Bar</h2></a>
+                <a href=""><h2 class="titulo">Bar</h2></a>
             </div>
             <div class="item servicio4">
                 <div class="overlay"></div>
-                <a href=""><h2>Spa</h2></a>
+                <a href=""><h2 class="titulo">Spa</h2></a>
             </div>
             <div class="item servicio5">
                 <div class="overlay"></div>
-                <a href=""><h2>Room service</h2></a>
+                <a href=""><h2 class="titulo">Room service</h2></a>
             </div>
         </div>
     </section>
+
 <!--seccion reservas-->
 <section id="reservas" class="bloque">
     <div class="contenido">
         <div>
-            <h2>¿Desea Reservar?</h2>
+            <h2 class="titulo">¿Desea Reservar?</h2>
         </div>
         <div class="contenido">
             <p>
@@ -140,6 +146,7 @@
         </div>
     </div>
 </section>
+
 <!--seccion de contactenos-->
 <section id="contactenos" class="bloque">
     <div class="contenido">
@@ -159,7 +166,7 @@
                     <i class="fa-solid fa-phone"></i>
                 </div>
                 <div class="datos_tel">
-                    <h2>Numero</h2>
+                    <h2>Direccion</h2>
                     <h3>calle 13 # 10 - 93, Soacha, Cundinamarca</h3>
                 </div>
             </div>
@@ -169,7 +176,7 @@
                     <i class="fa-solid fa-envelope"></i>
                 </div>
                 <div class="datos_email">
-                    <h2>Email</h2>
+                    <h2>Direccion</h2>
                     <h3>calle 13 # 10 - 93, Soacha, Cundinamarca</h3>
                 </div>
             </div>
@@ -186,7 +193,7 @@
         </div>
 
         <div class="formulario">
-            <center> <form action="#servicios">
+            <form action="#servicios">
                 <h3>Enviar Mensaje</h3>
                 <div class="info">
                     <label>Nombre</label>
@@ -205,17 +212,19 @@
                     <textarea cols="30" rows="10"></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Enviar" class="btn_enviar">
+                   <center><input type="submit" value="Enviar" class="btn_enviar"></center> 
                 </div>
-            </form></center>
+            </form>
         </div>
     </div>
+</section>
+
 <!--seccion registrarse-->
     <section id="registro" class="bloque">
         <div class="contenido">
             <div class="formulario">
                 <form action="#servicios">
-                    <h3>Enviar Mensaje</h3>
+                    <h3>Registrarse</h3>
                     <div class="info">
                         <label>Nombre</label>
                         <input type="text">
@@ -244,13 +253,12 @@
                         <input type="checkbox" >Acepta los terminos y condiciones</input>
                     </div>
                     <div>
-                        <input type="submit" name="" id="" value="Enviar" class="enviar" onclick="seleccionar()">
-                    </div>
+                       <center><input type="submit" name="" id="" value="Enviar" class="enviar" onclick="seleccionar()"></div></center> 
                 </form>
-        </div>
-    </div>
-    
-</section>
+            </div>
+        </div>    
+    </section>       
+
 
 
 
